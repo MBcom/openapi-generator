@@ -61,7 +61,7 @@ import java.util.stream.Collectors;
 
 public class ModelUtils {
     private static final Logger LOGGER = LoggerFactory.getLogger(ModelUtils.class);
-    private static boolean generateAliasAsModel = false;
+    private static boolean generateAliasAsModel = true;
 
     public static void setGenerateAliasAsModel(boolean value) {
         generateAliasAsModel = value;
